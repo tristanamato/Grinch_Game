@@ -1,0 +1,66 @@
+.title_validation {
+  color: #ffffff;
+  font-family: "Mountains of Christmas", serif;
+  font-size: 48px;
+  margin: 4rem 0 1rem 0;
+  border: solid 1px white;
+  padding: 20px;
+  width: 90%; 
+  border: 40%;
+  margin-bottom: 10%;
+  left: 10%;
+  right: 8%; 
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.joueur {
+  color: #207c00;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  border: solid 1px white;
+  padding: 10px;
+  background-color: #d9d9d9;
+  width: 90%; 
+  margin-bottom: 10%;
+}
+.joueur2 {
+  color: #ff0000;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  border: solid 1px white;
+  padding: 10px;
+  background-color: #d9d9d9;
+  width: 90%; 
+  margin-bottom: 10%;
+}
+.joueur {
+  color: #207c00;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  border: solid 1px white;
+  padding: 10px;
+  background-color: #d9d9d9;
+  margin-right: 80px;
+}
+.joueur {
+  color: #207c00;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  border: solid 1px white;
+  padding: 10px;
+  background-color: #d9d9d9;
+}
+.btn {
+  color: #42ff00;
+  font-family: "Mouse Memoirs", sans-serif;
+  border-radius: 28%;
+  width: 90%;
+  height: 41%;
+  background-color: black;
+  border-color: #42ff00;
+  margin-bottom: 10%;
+}

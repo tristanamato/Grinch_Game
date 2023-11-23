@@ -1,5 +1,11 @@
+import PlayerValidation from "../components/PlayerValidation/PlayerValidation";
+
 function Homepage() {
-  return <div>Je suis une Homepage</div>;
+  return (
+    <>
+  <PlayerValidation />
+    </>
+  );
 }
 
 export default Homepage;
