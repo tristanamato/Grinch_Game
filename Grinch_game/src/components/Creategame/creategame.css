@@ -1,0 +1,38 @@
+.game-info {
+  font-family: "Mountains of Christmas", serif;
+  font-size: 39px;
+  color: white;
+  border: 1px solid white;
+  padding: 2rem 2rem 2rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.grinch_18 {
+  width: 78%;
+}
+
+.Creategame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.input-name {
+  margin-bottom: 3rem;
+}
+
+.valider {
+  margin-bottom: 4rem;
+  height: 3rem;
+}
+
+input {
+  padding: 7%;
+  border-radius: 12px;
+  width: 80%;
+}
+
+.Creategame {
+  margin-top: 5rem;
+}
