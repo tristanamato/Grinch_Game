@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage.jsx";
 import Creategame from "./components/Creategame/Creategame.jsx";
 import Creationgame from "./components/CreationGame/CreationGame.jsx";
+import Menu from "./components/Menu/Menu";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
         path: "/Creationgame",
         element: <Creationgame />,
       },
+      { path: "/menu", element: <Menu /> },
     ],
   },
 ]);
