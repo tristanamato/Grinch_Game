@@ -1,4 +1,4 @@
-import "./PlayerValidation.css"
+import "./playerValidation.css"
 
 function PlayerValidation() {
   return(
