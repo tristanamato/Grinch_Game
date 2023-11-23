@@ -1,0 +1,60 @@
+.main_title {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 48px;
+    color: #ff0000;
+    font-weight: 700;
+    position: fixed;
+    top: 0%;
+    left: 12%;
+    
+  }
+  .btn_NewGame{
+    width: 246px;
+    height: 57px;    
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Mouse Memoirs';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFF0;
+  }
+  .btn_JoinGame {
+    width: 246px;
+    height: 57px;    
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Mouse Memoirs';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#42FF00;
+  }
+  
+  .flower_up{
+  width: 40%;
+  position:absolute;
+  left:0;
+   top: 1rem;
+  transform: rotate(120deg)
+  
+
+  }
+  .flower_down{
+    width: 45%;
+    margin:0%;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 200px;
+    top: 400.3px;
+    transform: rotate(-20deg)
+  }
