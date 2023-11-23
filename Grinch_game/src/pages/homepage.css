@@ -1,0 +1,28 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.title_sec {
+  font-size: 32px;
+  color: #42ff00;
+  font-family: "Inter", sans-serif;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.grinch_main {
+  width: 300px;
+  height: 295px;
+}
+.start_botton {
+  margin-left: 50px;
+}
+.botton_title {
+  font-family: "Mountains of Christmas", serif;
+  font-size: 36px;
+  color: #ff0000;
+  border: 1px solid white;
+  border-radius: 40px;
+  width: 80%;
+  font-weight: bold;
+}
