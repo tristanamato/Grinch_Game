@@ -1,5 +1,13 @@
-function Homepage() {
-  return <div>Je suis une Homepage</div>;
+import CreationGame from "../components/CreationGame/CreationGame"
+
+function Homepage() 
+
+{
+  return (
+  <>
+  <CreationGame/>
+  </>
+  )
 }
 
 export default Homepage;
