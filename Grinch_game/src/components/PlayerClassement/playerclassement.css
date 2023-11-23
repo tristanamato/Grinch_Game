@@ -1,14 +1,15 @@
-.title_validation {
+.title_validation2 {
   color: #ffffff;
-  font-family: "Mountains of Christmas", serif;
+  font-family: "Mouse Memoirs", sans-serif;
   font-size: 48px;
   margin: 4rem 0 1rem 0;
-  border: solid 1px white;
   padding: 20px;
-  width: 90%; 
-  border: 40%;
   margin-bottom: 10%;
-  left: 10%; 
+  left: 10%;
+  right: 8%;
+}
+.Grinch_valid {
+  width: 50%;
 }
 .main {
   display: flex;
@@ -16,50 +17,54 @@
   justify-content: space-between;
   align-items: center;
 }
-.joueur {
+.joueur4 {
   color: #207c00;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  border: solid 1px #207c00;
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10%;
+  background-color: black;
+}
+.joueur8 {
+  color: #ffffff;
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 24px;
   border: solid 1px white;
   padding: 10px;
-  background-color: #d9d9d9;
-  width: 90%; 
+  width: 90%;
+  margin-bottom: 10%;
+  background-color: black;
+}
+.joueur1 {
+  color: #ffffff;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  border: solid 1px white;
+  padding: 10px;
+  background-color: black;
   margin-bottom: 10%;
 }
-.joueur2 {
+.joueur3 {
   color: #ff0000;
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 24px;
-  border: solid 1px white;
+  border: solid 1px #ff0000;
   padding: 10px;
-  background-color: #d9d9d9;
-  width: 90%; 
+  background-color: black;
   margin-bottom: 10%;
 }
-.joueur {
-  color: #207c00;
-  font-family: "Mouse Memoirs", sans-serif;
-  font-size: 24px;
-  border: solid 1px white;
-  padding: 10px;
-  background-color: #d9d9d9;
-  margin-right: 80px;
+.santaclaus2 {
+  width: 50%;
 }
-.joueur {
-  color: #207c00;
-  font-family: "Mouse Memoirs", sans-serif;
-  font-size: 24px;
-  border: solid 1px white;
-  padding: 10px;
-  background-color: #d9d9d9;
-}
-.btn {
-  color: #42ff00;
+.btn2 {
+  color: #ffffff;
   font-family: "Mouse Memoirs", sans-serif;
   border-radius: 28%;
-  width: 54%;
+  width: 90%;
   height: 41%;
   background-color: black;
-  border-color: #42ff00;
+  border-color: #ffffff;
   margin-bottom: 10%;
 }

@@ -4,6 +4,8 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage.jsx";
+import PlayerClassement from "./components/PlayerClassement/PlayerClassement.jsx";
+import PlayerValidation from "./components/PlayerValidation/PlayerValidation.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,8 @@ const router = createBrowserRouter([
         path: "/",
         element: <Homepage />,
       },
+      { path: "/PlayerValidation", element: <PlayerValidation /> },
+      { path: "/PlayerClassement", element: <PlayerClassement /> },
     ],
   },
 ]);
