@@ -1,7 +1,7 @@
-import "./pageFinal.css";
 import DrunkenSanta from "../../assets/images/drunken_santa.png";
+import "./pageFinal.css";
 
-function dernierepage() {
+function PageFinal() {
   return (
     <div className="allpagefinal">
       <p className="text_final">
@@ -9,9 +9,9 @@ function dernierepage() {
       </p>
       <img src={DrunkenSanta} alt="drunkensanta" className="drunkensanta" />
 
-      <button className>Quitter</button>
+      <button className="btn_quit" >Quitter</button>
     </div>
   );
 }
 
-export default dernierepage;
+export default PageFinal;
