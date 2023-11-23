@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage.jsx";
 import PlayerClassement from "./components/PlayerClassement/PlayerClassement.jsx";
 import PlayerValidation from "./components/PlayerValidation/PlayerValidation.jsx";
+import YouPlay from "./components/YouPlay/YouPlay.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       },
       { path: "/PlayerValidation", element: <PlayerValidation /> },
       { path: "/PlayerClassement", element: <PlayerClassement /> },
+      { path: "/YouPlay", element: <YouPlay /> },
     ],
   },
 ]);
