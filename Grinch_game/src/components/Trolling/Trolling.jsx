@@ -47,7 +47,6 @@ function Trolling() {
           “ Sous sa hôte, le père noël a{" "}
           <span className="colored_answer">un prépuce géant</span>.“
         </p>
-        <div className="dashed_line"></div>
       </div>
       <p className="troll_validate">VALIDER</p>
     </section>
