@@ -1,0 +1,76 @@
+.poo {
+  width: 82px;
+  margin: 2%;
+}
+.grinch_scream {
+  width: 82px;
+  margin: 2%;
+}
+.img_heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17%;
+}
+
+.player_four {
+  border: 1px solid white;
+
+  width: 296px;
+  height: 163px;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+.player_three {
+  border: 1px solid white;
+  width: 296px;
+  height: 163px;
+}
+.player_heading {
+  font-size: 30px;
+  margin: 0;
+  color: #42ff00;
+  font-family: "Inter", sans-serif;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.player_heading_sec {
+  font-size: 30px;
+  margin: 0;
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-family: "Mouse Memoirs", sans-serif;
+  margin-left: 2%;
+}
+.para_first {
+  margin: 0;
+  font-family: "Courier Prime", monospace;
+  word-spacing: -1px;
+  margin-top: 1rem;
+  font-size: 25px;
+}
+.para_sec {
+  margin: 0;
+  font-family: "Courier Prime", monospace;
+
+  line-height: 1;
+  text-align: center;
+  margin: 5%;
+  word-spacing: -3px;
+}
+
+.btn_next {
+  font-family: "Mouse Memoirs", sans-serif;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 244px;
+  height: 41px;
+  left: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  margin-top: 2rem;
+}

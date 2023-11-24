@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage.jsx";
 import Menu from "./components/Menu/Menu";
+import WinLose from "./components/WinLose/WinLose.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,10 @@ const router = createBrowserRouter([
         path: "/menu",
         element: <Menu />,
       },
-     
+      {
+        path: "/winlose",
+        element: <WinLose />,
+      },
     ],
   },
 ]);
