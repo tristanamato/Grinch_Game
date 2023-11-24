@@ -1,0 +1,75 @@
+#trolling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.title_trolling {
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 40px;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+  padding: 1rem 0;
+}
+.Player_answer {
+}
+
+.top_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.win_loose_ico {
+  display: flex;
+  column-gap: 2rem;
+}
+.grinch_ico {
+  width: 45px;
+  height: 45px;
+}
+.santa_ico {
+  width: 45px;
+  height: 45px;
+}
+.troll_player_name {
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+}
+.play_answer {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 0;
+}
+.colored_answer {
+  color: #00fff0;
+}
+.dashed_line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed white;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.troll_validate {
+  border: 1px solid #42ff00;
+  border-radius: 40px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #42ff00;
+}
