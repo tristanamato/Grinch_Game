@@ -1,4 +1,12 @@
+import YouPlay from "../components/YouPlay/YouPlay"
 function Homepage() {
-  return <></>;
+
+  return (
+    <>
+
+    </>
+  );
+
+ 
 }
 export default Homepage;
