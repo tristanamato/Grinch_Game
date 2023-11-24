@@ -1,4 +1,4 @@
-import YouPlay from "../components/YouPlay/YouPlay"
+
 function Homepage() {
 
   return (
