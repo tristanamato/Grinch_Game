@@ -1,0 +1,59 @@
+.game-input {
+  border: 1px solid white;
+  padding: 1rem 1.8rem 1rem 1.8rem;
+  margin: 0px 0 2rem 0;
+  width: 244px;
+  height: 120px;
+}
+.game-input-code {
+  font-family: "Mountains of Christmas", serif;
+  font-size: 28px;
+  color: white;
+  padding-bottom: 1rem;
+}
+.game-number-input {
+  padding: 10px 47px;
+}
+.grinch_2 {
+  width: 34%;
+  position: absolute;
+  bottom: -2%;
+  left: 35%;
+}
+
+.Joingame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.input-name1 {
+  margin-bottom: 2rem;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+}
+
+.valider-join-game {
+  height: 3rem;
+  border: 1px solid #42ff00;
+  border-radius: 40px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 35px;
+  text-align: center;
+  color: #42ff00;
+  padding-top: 10px;
+}
+
+.input-name2 {
+  padding: 10px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+}

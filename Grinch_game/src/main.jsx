@@ -4,14 +4,15 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage.jsx";
+import Creategame from "./components/Creategame/Creategame.jsx";
+import Creationgame from "./components/CreationGame/CreationGame.jsx";
 import PlayerClassement from "./components/PlayerClassement/PlayerClassement.jsx";
 import PlayerValidation from "./components/PlayerValidation/PlayerValidation.jsx";
 import YouPlay from "./components/YouPlay/YouPlay.jsx";
-import PageFinal from "./components/Page_final/PageFinal.jsx"
+import PageFinal from "./components/Page_final/PageFinal.jsx;
 import Menu from "./components/Menu/Menu";
-
+import Joingame from "./components/Joingame/Joingame.jsx";
 import WinLose from "./components/WinLose/WinLose.jsx";
-
 import CreationGame from "./components/CreationGame/CreationGame.jsx";
 import Trolling from "./components/Trolling/Trolling.jsx";
 
@@ -35,15 +36,23 @@ const router = createBrowserRouter([
         element: <PageFinal />,
       },
       {
-        path: "/menu",
-        element: <Menu />,
+        path: "/Creategame",
+        element: <Creategame />,
       },
       {
-
+        path: "/Creationgame",
+        element: <Creationgame />,
+      },
+      { path: "/menu", element: <Menu /> },
+      {
+        path: "/joingame",
+        element: <Joingame />,
+      },
+      {
         path: "/winlose",
         element: <WinLose />,
       },
-
+      {
         path: "/CreationGame",
         element: <CreationGame />,
       },
@@ -51,7 +60,6 @@ const router = createBrowserRouter([
         path: "/trolling",
         element: <Trolling />,
       },
-
 
     ],
   },
