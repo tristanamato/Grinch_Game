@@ -1,0 +1,29 @@
+.dernierpage {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 48px;
+    color: #ff0000;    
+    font-weight: 700; 
+    position: fixed;
+    top: 0%;
+    left: 12%;
+  }
+  .text_final{
+   color: white;
+   width: 80%;
+   text-align: center;
+   margin: 2rem 0;
+  }
+  .drunkensanta{
+    width: 250px;
+  }
+
+.allpagefinal{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;}
+
+.btn_quit{
+  margin-top: 2rem;
+}
