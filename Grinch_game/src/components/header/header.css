@@ -3,7 +3,8 @@
   font-size: 48px;
   color: #ff0000;
   font-weight: 700;
-  position: fixed;
+  position: absolute;
   top: 0%;
-  left: 6%;
+  left: 8%;
+
 }

@@ -1,0 +1,62 @@
+.grinch_19 {
+  width: 101px;
+  height: 115px;
+  position: absolute;
+  top: 106px;
+  left: 220px;
+}
+.title_question {
+  display: flex;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.title_play {
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+  padding: 1rem 0;
+  width: 51%;
+  position: absolute;
+  top: 98px;
+  left: 41px;
+}
+.question {
+  display: flex;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 24px;
+  position: absolute;
+  top: 237px;
+  left: 10px;
+}
+.playbtn {
+  color: #42ff00;
+  font-family: "Mouse Memoirs", sans-serif;
+  box-sizing: border-box;
+
+position: absolute;
+width: 244px;
+height: 41px;
+left: 38px;
+top: 354px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+border: 1px solid #42FF00;
+border-radius: 40px;
+}
+
+.false_input {
+  background-color: antiquewhite;
+  position: absolute;
+  width: 102px;
+  top: 269px;
+  left: 201px;
+}
+.Grinch_bottom_question{
+  width: 109px;
+  position: absolute;
+  top: 443px;
+  left: 99px;
+}

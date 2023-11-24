@@ -1,6 +1,5 @@
 import "./homepage.css";
 import Grinch_main from "../assets/images/grinch_14.png";
-
 function Homepage() {
   return (
     <div className="homepage">
@@ -12,5 +11,4 @@ function Homepage() {
     </div>
   );
 }
-
 export default Homepage;
