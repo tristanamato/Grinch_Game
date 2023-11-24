@@ -9,11 +9,13 @@ function Creategame() {
         <div className="game-code">GAME CODE</div>
         <div className="game-number">#666</div>
       </div>
-      <div className="input-name">
-        <input type="text" placeholder="entrez votre nom" />
+      <div className="input-toto-name">
+        <div className="toto_input"> PLAYER1</div>
       </div>
-      <button className="valider">Valider</button>
-      <img className="grinch_18" src={Grinch_18} alt="Grinch_image" />
+      <div className="valider-create-game ">Valider</div>
+      <div className="grinch-position-toto">
+        <img className="grinch_18" src={Grinch_18} alt="Grinch_image" />
+      </div>
     </div>
   );
 }

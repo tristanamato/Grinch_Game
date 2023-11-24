@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage.jsx";
 import Creategame from "./components/Creategame/Creategame.jsx";
 import Creationgame from "./components/CreationGame/CreationGame.jsx";
 import Menu from "./components/Menu/Menu";
+import Joingame from "./components/Joingame/Joingame.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         element: <Creationgame />,
       },
       { path: "/menu", element: <Menu /> },
+      {
+        path: "/joingame",
+        element: <Joingame />,
+      },
     ],
   },
 ]);
