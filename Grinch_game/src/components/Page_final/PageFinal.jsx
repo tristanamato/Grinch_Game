@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import DrunkenSanta from "../../assets/images/drunken_santa.png";
 import "./pageFinal.css";
 

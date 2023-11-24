@@ -9,6 +9,7 @@ import PlayerValidation from "./components/PlayerValidation/PlayerValidation.jsx
 import YouPlay from "./components/YouPlay/YouPlay.jsx";
 import PageFinal from "./components/Page_final/PageFinal.jsx"
 import Menu from "./components/Menu/Menu";
+import CreationGame from "./components/CreationGame/CreationGame.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,8 +29,13 @@ const router = createBrowserRouter([
         path: "/finale",
         element: <PageFinal />,
       },
+      {
         path: "/menu",
         element: <Menu />,
+      },
+      {
+        path: "/CreationGame",
+        element: <CreationGame />,
       },
 
     ],

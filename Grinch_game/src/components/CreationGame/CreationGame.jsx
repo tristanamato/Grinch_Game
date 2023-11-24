@@ -1,7 +1,7 @@
 import "./creationGame.css";
 import ChelouFlower from "../../assets/images/grinch_10.png"
 
-function creationGame() {
+function CreationGame() {
   return (
     <>
     <img src={ChelouFlower} alt="chelou flower" className="flower_up"/>
@@ -17,4 +17,4 @@ function creationGame() {
   );
 }
 
-export default creationGame;
+export default CreationGame;
