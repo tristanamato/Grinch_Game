@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import DrunkenSanta from "../../assets/images/drunken_santa.png";
 import "./pageFinal.css";
+import { Link } from "react-router-dom";
 
 function PageFinal() {
   return (
@@ -9,8 +10,9 @@ function PageFinal() {
         Nous vous remercions d'avoir gaché votre noël en notre compagnie
       </p>
       <img src={DrunkenSanta} alt="drunkensanta" className="drunkensanta" />
-
-      <button className="btn_quit" >Quitter</button>
+      <Link to="/">
+        <button className="btn_quit">Quitter</button>{" "}
+      </Link>
     </div>
   );
 }

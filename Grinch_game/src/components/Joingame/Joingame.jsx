@@ -1,5 +1,6 @@
 import "./joingame.css";
 import Grinch_2 from "../../assets/images/grinch_2.png";
+import { Link } from "react-router-dom";
 
 function Joingame() {
   return (
@@ -11,7 +12,9 @@ function Joingame() {
       <div className="input-name1">
         <div className="input-name2">PLAYER2</div>
       </div>
-      <div className="valider-join-game">Valider</div>
+      <Link to="/playervalidation" className="valider-join-game">
+        Valider
+      </Link>
       <img className="grinch_2" src={Grinch_2} alt="Grinch_image" />
     </div>
   );

@@ -33,6 +33,7 @@
   background: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 40px;
+  margin: 0 10px 31px 10px;
 }
 
 .valider-join-game {
@@ -47,6 +48,7 @@
   text-align: center;
   color: #42ff00;
   padding-top: 10px;
+  margin: 0 10px 31px 10px;
 }
 
 .input-name2 {

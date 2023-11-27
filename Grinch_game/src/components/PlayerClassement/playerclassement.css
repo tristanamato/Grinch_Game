@@ -2,14 +2,12 @@
   color: #ffffff;
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 48px;
-  margin: 4rem 0 1rem 0;
+  margin: 5rem 0 0 0;
   padding: 20px;
-  margin-bottom: 10%;
-  left: 10%;
-  right: 8%;
 }
 .Grinch_valid {
   width: 50%;
+  margin-bottom: 1rem;
 }
 .main {
   display: flex;
@@ -18,12 +16,12 @@
   align-items: center;
 }
 .joueur4 {
-  color: #207c00;
+  color: #42ff00;
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 24px;
-  border: solid 1px #207c00;
+  border: solid 1px #42ff00;
   padding: 10px;
-  width: 90%;
+
   margin-bottom: 10%;
   background-color: black;
 }
@@ -33,7 +31,7 @@
   font-size: 24px;
   border: solid 1px white;
   padding: 10px;
-  width: 90%;
+
   margin-bottom: 10%;
   background-color: black;
 }
@@ -63,8 +61,8 @@
   font-family: "Mouse Memoirs", sans-serif;
   border-radius: 28%;
   width: 90%;
-  height: 41%;
   background-color: black;
   border-color: #ffffff;
   margin-bottom: 10%;
+  padding: 13px;
 }

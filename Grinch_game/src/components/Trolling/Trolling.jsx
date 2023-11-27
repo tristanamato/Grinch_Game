@@ -1,6 +1,7 @@
 import "./trolling.css";
 import Grinch from "../../assets/images/grinch.png";
 import SantaClaus from "../../assets/images/pere-noel.png";
+import { Link } from "react-router-dom";
 
 function Trolling() {
   return (
@@ -47,8 +48,11 @@ function Trolling() {
           “ Sous sa hôte, le père noël a{" "}
           <span className="colored_answer">un prépuce géant</span>.“
         </p>
+        <div className="dashed_line"></div>
       </div>
-      <p className="troll_validate">VALIDER</p>
+      <Link to="/winlose" className="troll_validate">
+        VALIDER
+      </Link>
     </section>
   );
 }

@@ -5,10 +5,11 @@
   margin: 4rem 0 1rem 0;
   border: solid 1px white;
   padding: 20px;
-  width: 90%; 
+  width: 90%;
   border: 40%;
   margin-bottom: 10%;
-  left: 10%; 
+  margin-top: 6rem;
+  margin-left: -4%;
 }
 .main {
   display: flex;
@@ -23,7 +24,7 @@
   border: solid 1px white;
   padding: 10px;
   background-color: #d9d9d9;
-  width: 90%; 
+  width: 90%;
   margin-bottom: 10%;
 }
 .joueur2 {
@@ -33,7 +34,7 @@
   border: solid 1px white;
   padding: 10px;
   background-color: #d9d9d9;
-  width: 90%; 
+  width: 90%;
   margin-bottom: 10%;
 }
 .joueur {
@@ -53,13 +54,19 @@
   padding: 10px;
   background-color: #d9d9d9;
 }
-.btn {
+.btn_player {
+  height: 3rem;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 35px;
+  text-align: center;
   color: #42ff00;
-  font-family: "Mouse Memoirs", sans-serif;
-  border-radius: 28%;
-  width: 54%;
-  height: 41%;
+  padding-top: 6px;
   background-color: black;
-  border-color: #42ff00;
-  margin-bottom: 10%;
+  margin-bottom: 2rem;
+  width: 90%;
 }
